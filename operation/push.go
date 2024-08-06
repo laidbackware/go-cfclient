@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/cloudfoundry/go-cfclient/v3/client"
-	"github.com/cloudfoundry/go-cfclient/v3/resource"
+	"github.com/laidbackware/go-cfclient/v3/client"
+	"github.com/laidbackware/go-cfclient/v3/resource"
 )
 
 type StrategyMode int
@@ -228,7 +228,7 @@ func (p *AppPushOperation) rollBackDeployment(ctx context.Context, originalApp *
 }
 
 // Stop the application and delete it
-// https://github.com/cloudfoundry/cloud_controller_ng/issues/1017
+// https://github.com/laidbackware/cloud_controller_ng/issues/1017
 func (p *AppPushOperation) gracefulDeletion(ctx context.Context, app *resource.App) error {
 	app, err := p.client.Applications.Stop(ctx, app.GUID)
 	if err != nil {

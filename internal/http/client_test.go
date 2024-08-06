@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudfoundry/go-cfclient/v3/internal/http"
-	"github.com/cloudfoundry/go-cfclient/v3/testutil"
+	"github.com/laidbackware/go-cfclient/v3/internal/http"
+	"github.com/laidbackware/go-cfclient/v3/testutil"
 
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

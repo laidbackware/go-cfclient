@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudfoundry/go-cfclient/v3/client"
-	"github.com/cloudfoundry/go-cfclient/v3/config"
-	"github.com/cloudfoundry/go-cfclient/v3/testutil"
+	"github.com/laidbackware/go-cfclient/v3/client"
+	"github.com/laidbackware/go-cfclient/v3/config"
+	"github.com/laidbackware/go-cfclient/v3/testutil"
 
 	"github.com/stretchr/testify/require"
 )

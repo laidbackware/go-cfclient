@@ -14,11 +14,11 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/clientcredentials"
 
-	internal "github.com/cloudfoundry/go-cfclient/v3/internal/http"
-	"github.com/cloudfoundry/go-cfclient/v3/internal/ios"
-	"github.com/cloudfoundry/go-cfclient/v3/internal/jwt"
-	"github.com/cloudfoundry/go-cfclient/v3/internal/path"
-	"github.com/cloudfoundry/go-cfclient/v3/resource"
+	internal "github.com/laidbackware/go-cfclient/v3/internal/http"
+	"github.com/laidbackware/go-cfclient/v3/internal/ios"
+	"github.com/laidbackware/go-cfclient/v3/internal/jwt"
+	"github.com/laidbackware/go-cfclient/v3/internal/path"
+	"github.com/laidbackware/go-cfclient/v3/resource"
 )
 
 const (

@@ -1,7 +1,7 @@
 package operation
 
 import (
-	"github.com/cloudfoundry/go-cfclient/v3/resource"
+	"github.com/laidbackware/go-cfclient/v3/resource"
 )
 
 type AppHealthCheckType string

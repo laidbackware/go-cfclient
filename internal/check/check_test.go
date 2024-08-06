@@ -3,7 +3,7 @@ package check_test
 import (
 	"testing"
 
-	"github.com/cloudfoundry/go-cfclient/v3/internal/check"
+	"github.com/laidbackware/go-cfclient/v3/internal/check"
 
 	"github.com/stretchr/testify/require"
 )

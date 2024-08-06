@@ -1,3 +1,3 @@
-module github.com/cloudfoundry/go-cfclient/helloworld
+module github.com/laidbackware/go-cfclient/helloworld
 
 go 1.19

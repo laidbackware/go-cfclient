@@ -3,8 +3,8 @@ package client_test
 import (
 	"testing"
 
-	"github.com/cloudfoundry/go-cfclient/v3/client"
-	"github.com/cloudfoundry/go-cfclient/v3/config"
+	"github.com/laidbackware/go-cfclient/v3/client"
+	"github.com/laidbackware/go-cfclient/v3/config"
 
 	"github.com/stretchr/testify/require"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/url"
 
-	"github.com/cloudfoundry/go-cfclient/v3/internal/path"
-	"github.com/cloudfoundry/go-cfclient/v3/resource"
+	"github.com/laidbackware/go-cfclient/v3/internal/path"
+	"github.com/laidbackware/go-cfclient/v3/resource"
 )
 
 type ServiceUsageClient commonClient

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudfoundry/go-cfclient/v3/client"
-	"github.com/cloudfoundry/go-cfclient/v3/resource"
+	"github.com/laidbackware/go-cfclient/v3/client"
+	"github.com/laidbackware/go-cfclient/v3/resource"
 
 	"github.com/stretchr/testify/require"
 )

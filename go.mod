@@ -1,4 +1,4 @@
-module github.com/cloudfoundry/go-cfclient/v3
+module github.com/laidbackware/go-cfclient/v3
 
 go 1.19
 

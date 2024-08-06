@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/cloudfoundry/go-cfclient/v3/internal/ios"
+	"github.com/laidbackware/go-cfclient/v3/internal/ios"
 )
 
 // OAuthTokenSourceCreator implementations create OAuth2 TokenSources

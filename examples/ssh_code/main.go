@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cloudfoundry/go-cfclient/v3/client"
-	"github.com/cloudfoundry/go-cfclient/v3/config"
+	"github.com/laidbackware/go-cfclient/v3/client"
+	"github.com/laidbackware/go-cfclient/v3/config"
 )
 
 func main() {

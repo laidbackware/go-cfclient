@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/cloudfoundry/go-cfclient/v3/resource"
+	"github.com/laidbackware/go-cfclient/v3/resource"
 )
 
 // RootClient queries the global API root /

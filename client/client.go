@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudfoundry/go-cfclient/v3/config"
-	"github.com/cloudfoundry/go-cfclient/v3/internal/check"
-	internal "github.com/cloudfoundry/go-cfclient/v3/internal/http"
-	"github.com/cloudfoundry/go-cfclient/v3/internal/ios"
-	"github.com/cloudfoundry/go-cfclient/v3/internal/path"
+	"github.com/laidbackware/go-cfclient/v3/config"
+	"github.com/laidbackware/go-cfclient/v3/internal/check"
+	internal "github.com/laidbackware/go-cfclient/v3/internal/http"
+	"github.com/laidbackware/go-cfclient/v3/internal/ios"
+	"github.com/laidbackware/go-cfclient/v3/internal/path"
 )
 
 // Client used to communicate with Cloud Foundry
